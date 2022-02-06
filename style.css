@@ -1,0 +1,52 @@
+/* 
+    ctrl + shift + / - CSS comment
+
+    CSS - cascading stylesheet - it is used to style/design our web pages. 
+*/
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2{
+    font-family: "Montserrat", sans-serif;
+}
+h2{
+    color: #19E5B7;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    outline: 4px solid #19E5B7 ;
+}
+#landing{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#gallery{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    background-color: #19E5B7 ;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.tools{
+    height: 200px;
+    border: 5px solid #f2f2f2;
+    padding: 25px;
+    margin: 20px;
+    width: 75%;
+}
